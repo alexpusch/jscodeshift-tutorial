@@ -1,4 +1,4 @@
-function logPerson({firstName, lastName, age}) {
+function logPerson(firstName, lastName, age) {
   let string = `${firstName}, ${lastName}`
   if(age) string += `: ${age}`
   

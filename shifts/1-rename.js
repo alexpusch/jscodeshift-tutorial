@@ -1,5 +1,4 @@
 module.exports = function(fileInfo, api, options) {
-  // inside a module transform
   const j = api.jscodeshift;
   const ast = api.jscodeshift(fileInfo.source);
   
